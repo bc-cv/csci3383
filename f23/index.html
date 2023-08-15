@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>CSCI 3397/PSYC 3317: Sping 2023</title>
+  <title>CSCI 3383: Fall 2023</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../shared/main.css">
@@ -36,10 +36,10 @@
           <font size="+2" color="#535353">
             <table class="hinfo">
               <tr>
-                <td class="hinfo">Session I: <a href="https://sites.google.com/site/ilyavv/" class="nounderline">Ilya
+                <td class="hinfo2">Session I: <a href="https://sites.google.com/site/ilyavv/" class="nounderline">Ilya
                     Volkovich</a></td>
-                <td class="hinfo">MW 3-4:15 pm</td>
-                <td class="hinfo">Location: 245 Beacon, Room 102</td>
+                <td class="hinfo2">MW 3-4:15 pm</td>
+                <td class="hinfo2">Location: 245 Beacon, Room 102</td>
               </tr>
               <tr>
                 <td class="hinfo">Session II: <a href="https://donglaiw.github.io/" class="nounderline">Donglai Wei</a>
@@ -85,7 +85,7 @@
                 <p>CSCI 3383 is the last part of a sequel (together with CSCI 2243 & CSCI 2244) that provides the
                   mathematical background
                   for upper-division courses in the theory field. Or as you wish, it helps to
-                  <font color="#800000">crack the code interview</font>.
+                  <i>crack the code interview</i>.
                   <br />
                   <b>Concepts:</b> asymptotic (“Big Oh”) notation,
                   design and
@@ -100,7 +100,7 @@
                 <div style="padding-left: 4%; margin-top: -30px">
                   <ul>
                     <li>Prerequisites: CSCI 1102, CSCI 2243, CSCI 2244 or equivalent</li>
-                    <li>Grading: 10 homework (40%) + 1 midterm (25%) + 1 final exam (35%) </li>
+                    <li>Grading: 10 homework (40%) + 1 midterm (25%) + 1 final exam (35%) + extra credit </li>
 
                     <li>Textbooks (not required):
                       <ul style="margin-left: 30px;margin-top: 0px">
@@ -173,9 +173,21 @@
                   <!-- Start schedule -->
                   <tbody>
                     <tr>
-                      <td rowspan=5 style="vertical-align:middle;text-align:center;">DIP Basics<br />[Week 1-2]</td>
-                      <td>Wed, Jan. 18</td>
-                      <td class="topic"><a href="https://www.dropbox.com/s/t9s5r9a3ey8wzf4/lec1-intro.pdf?dl=0">Lec. 1:
+                      <td align=center colspan="5">
+                        <h3>
+                          <font color=#800000>Module I: Basic Toolbox</font>
+                        </h3>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td rowspan=6 style="vertical-align:middle;text-align:center;">
+                        Notation and Analysis<br />[Week
+                        1-2]</td>
+
+                      <td>Tue, Aug. 29</td>
+                      <td class="topic"><a class="nope"
+                          href="https://www.dropbox.com/s/t9s5r9a3ey8wzf4/lec1-intro.pdf?dl=0">Lec. 1:
                           Introduction</a>
                         <div class="subtopic">
                           Overview, logistics
@@ -186,57 +198,67 @@
                       </td>
                       <td>
                         <ul class="materials">
-                          <li>[T] Chap. 1, [Z] <a href="https://d2l.ai/chapter_introduction/index.html">Chap. 1</a></li>
-                          <li>AI for <a href="https://www.youtube.com/watch?v=ii-FfE-7C-k">healthcare</a>, <a
-                              href="https://www.youtube.com/watch?v=ETq_9YFUQvU">bioimage</a>, <a
-                              href="https://www.youtube.com/watch?v=9fAcjfnWyso">medical image</a></li>
+                          <li> [CLRS] Chap. 2</li>
+                          <li> [M] <a href="https://d2l.ai/chapter_introduction/index.html">Chap. 1</a></li>
+                          <li>Video: <a href="https://www.youtube.com/watch?v=uaaC57tcci0">The Social
+                              Dilemma</a></li>
                         </ul>
                       </td>
-                      <td> <a
-                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">lab0
-                          out</a> </td>
+                      <td>
+                      </td>
                     </tr>
+
                     <tr>
-                      <td>Fri, Jan. 20 </td>
-                      <td class="topic"><a href="https://www.dropbox.com/s/xnleydmx4gt70sk/lec2-modality.pdf?dl=0">Lec.
-                          2: Image Formation</a>
+                      <td>Thu, Aug. 31 </td>
+                      <td class="topic"><a class="nope"
+                          href="https://www.dropbox.com/s/xnleydmx4gt70sk/lec2-modality.pdf?dl=0">Lec.
+                          2: Basic Algorithm Analysis</a>
                         <div class="subtopic">
-                          Digital image, biomedical images
+                          Time complexity, Number representation, Proof of correctness
                           <br />Coding: Imageio, Matplotlib
                         </div>
                       </td>
                       <td>
                         <ul class="materials">
-                          <li>[T] Chap. 2</li>
-                          <li>Microscopy: <a href="https://www.youtube.com/watch?v=bjcewKLlb2Y">history</a>, <a
-                              href="https://www.youtube.com/watch?v=4c5ILWQmqRY">overview</a></li>
-                          <li>Medical: <a
-                              href="https://www.youtube.com/watch?v=gsV7SJDDCY4&list=PLHXTeFF7XC2EGpKUTjKa7Uvb_QX3EsRvo&index=1">X-ray/CT</a>,
-                            <a href="https://www.youtube.com/watch?v=4JLNb8-LOB0">Ultrasound</a>, <a
-                              href="https://www.youtube.com/watch?v=nFkBhUYynUw">MRI</a>, <a
-                              href="https://www.youtube.com/watch?v=yrTy03O0gWw&list=PLHXTeFF7XC2EGpKUTjKa7Uvb_QX3EsRvo&index=6">PET</a>
-                          </li>
+                          <li>[CLRS] Chap. 3</li>
                         </ul>
                       </td>
                       <td>
                       </td>
                     </tr>
 
-                    <tr>
-                      <td>Mon, Jan. 23 </td>
-                      <td class="topic">
-                        <a href="https://www.dropbox.com/s/c6eggsvi7qwft54/lec3-image-operations.pdf?dl=0">Lec. 3:
-                          Pixel-level Processing</i></a>
+                    <tr class="gray">
+                      <td>Fri, Sep. 1 </td>
+                      <td class="topic2"> No Discussion
                         <div class="subtopic">
-                          Transfer function
-                          <br />Coding: NumPy
+                        </div>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">hw0
+                          out
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>Tue, Sep. 5 </td>
+                      <td class="topic">
+                        <font style="background-color:#9de0ad">
+                          <a class="nope"
+                            href="https://www.dropbox.com/s/c6eggsvi7qwft54/lec3-image-operations.pdf?dl=0">
+                            Guest Lecture:
+                            Coding Interview 101</i></a>
+                        </font>
+                        <div class="subtopic">
+                          Guest: <a href="https://scholar.harvard.edu/clarence/home">Fabio</a> (@Google)
                         </div>
                       </td>
                       <td>
                         <ul class="materials">
-                          <li>[T] Chap. 4.2.1, 4.3</li>
-                          <li>numpy.org: <a href="https://numpy.org/doc/stable/user/absolute_beginners.html">NumPy
-                              101</a></li>
+                          <li></li>
                         </ul>
                       </td>
 
@@ -244,10 +266,11 @@
                       </td>
                     </tr>
                     <tr>
-                      <td>Wed, Jan. 25 </td>
+                      <td>Thu, Sep. 7 </td>
                       <td class="topic">
-                        <a href="https://www.dropbox.com/s/mny34e7pa42qa6a/lec4-patch-operations.pdf?dl=0">Lec. 4:
-                          Patch-level Processing</i></a>
+                        <a class="nope" href="https://www.dropbox.com/s/mny34e7pa42qa6a/lec4-patch-operations.pdf?dl=0">
+                          Lec. 3:
+                          Potential Method</i></a>
                         <div class="subtopic">
                           Linear and nonlinear filtering
                           <br />Coding: NumPy
@@ -255,87 +278,72 @@
                       </td>
                       <td>
                         <ul class="materials">
-                          <li>[T] Chap. 4.2.1, 4.3</li>
-                          <li>numpy.org: <a href="https://numpy.org/doc/stable/user/absolute_beginners.html">NumPy
-                              101</a></li>
+                          <li>[CLRS] Chap. 17.3, 31.2</li>
                         </ul>
                       </td>
-                      <td><strike>
-                          <font color=#800000>lab0 due</font>
-                        </strike>
-                        <br />ps1 out (dip)
-                      </td>
+                      <td> </td>
                     </tr>
                     <tr class="gray">
-                      <td>Fri, Jan. 27 </td>
-                      <td class="topic2"><a
-                          href="https://www.dropbox.com/s/yrh7cv2fazy7kzz/lab1-linear-algrebra.pdf?dl=0">Lab 1: Numpy
-                          Basics</a>
+                      <td>Fri, Sep. 8 </td>
+                      <td class="topic2"><a class="nope"
+                          href="https://www.dropbox.com/s/yrh7cv2fazy7kzz/lab1-linear-algrebra.pdf?dl=0">
+                          Reviews: Proofs, Asymptotic notation, Information</a>
                         <div class="subtopic">
+
                         </div>
                       </td>
                       <td>
-                        <i>Maths review: linear algebra</i>
-                        <ul class="materials">
-                          <li><a href="https://www.deeplearningbook.org/contents/linear_algebra.html">Goodfellow Chapter
-                              2</li>
-                          <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence
-                              of linear algebra</li>
-                        </ul>
                       </td>
                       <td>
+                        hw0 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">hw1
+                          out
+                        </a>
                       </td>
                     </tr>
 
                     <tr>
-                      <td rowspan=9 style="vertical-align:middle;text-align:center;" bgcolor="#FFBFBF">DIP+2D
-                        Images<br />[Week 3-5]</td>
-                      <td>Mon, Jan. 30</td>
+                      <td rowspan=10 style="vertical-align:middle;text-align:center;">
+                        Design Paradigms
+                        <br />[Week 3-6]
+                      </td>
+                      <td>Tue, Sep. 12</td>
                       <td class="topic">
-                        <a href="https://www.dropbox.com/s/ebdp5x3wf8ynruu/lec5-image-features.pdf?dl=0">Lec. 5: Image
-                          Features</a>
-                        <div class="subtopic">Edge, corner, texture
+                        <a class="nope" href="https://www.dropbox.com/s/ebdp5x3wf8ynruu/lec5-image-features.pdf?dl=0">
+                          Lec. 4: Greedy</a>
+                        <div class="subtopic">
                         </div>
                       </td>
                       <td>
-                        <i>Task I: Region of Interest (ROI) Detection</i>
                         <ul class="materials">
-                          <li>[T] Chap. 4.2.3, 5.3, 5.10</li>
+                          <li>[CLRS] Chap. 16, 23</li>
                         </ul>
                       </td>
 
                       <td></td>
                     </tr>
                     <tr>
-                      <td>Wed, Feb. 1</td>
+                      <td>Thu, Sep. 14</td>
                       <td class="topic">
-                        <font style="background-color:#FFBFBF"><a
-                            href="https://www.dropbox.com/s/wk4xy2afl398nac/guest-microscopy-image-analysis.pdf?dl=0">Case
-                            I (BIO): Microscopy Image Analysis</a></font>
-                        <div class="subtopic">Guest: <a href="https://scholar.harvard.edu/clarence/home">Dr. Clarence
-                            Yapp</a> (@HMS)
+                        <a href="https://www.dropbox.com/s/wk4xy2afl398nac/guest-microscopy-image-analysis.pdf?dl=0">
+                          Lec. 5: TBD </a>
+                        <div class="subtopic">
                         </div>
                       </td>
                       <td>
-                        <i>Task II: Image Preprocessing</i>
                         <ul class="materials">
-                          <li><a
-                              href="https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/">HMS
-                              LSP group</a></li>
-                          <!--li>Video: <a href="https://www.youtube.com/watch?v=1QzGjiLnohk">Bioimage for drug discovery"</a></li-->
                         </ul>
                       </td>
 
                       <td>
-                        <strike>
-                          <font color=#800000>lab1 due</font>
-                        </strike>
                       </td>
                     </tr>
                     <tr class="gray">
-                      <td>Fri, Feb. 3</td>
-                      <td class="topic2"><a href="https://www.dropbox.com/s/604xsxymlt5ryxv/lab2-opencv.pdf?dl=0">Lab 2:
-                          Registration Toolbox</a>
+                      <td>Fri, Sep. 15</td>
+                      <td class="topic2"><a class="nope"
+                          href="https://www.dropbox.com/s/604xsxymlt5ryxv/lab2-opencv.pdf?dl=0">
+                          Reviews: Greedy and Potential</a>
                         <div class="subtopic">
                         </div>
                       </td>
@@ -344,22 +352,29 @@
                         <ul class="materials">
                         </ul>
                       </td>
-                      <td></td>
+                      <td>
+                        hw1 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw2 out
+                        </a>
+                      </td>
                     </tr>
 
                     <tr>
-                      <td>Mon, Feb. 6</td>
+                      <td>Tue, Sep. 19</td>
                       <td class="topic">
-                        <a href="https://www.dropbox.com/s/vjjaiud9vmhilff/lec6-image-transformation.pdf?dl=0">Lec. 6:
-                          Image Transformation</a>
-                        <div class="subtopic">Image transformation
+                        <a class="nope"
+                          href="https://www.dropbox.com/s/vjjaiud9vmhilff/lec6-image-transformation.pdf?dl=0">
+                          Lec. 6:
+                          Divide and Conquer I</a>
+                        <div class="subtopic">
                           <br> Coding: OpenCV
                         </div>
                       </td>
                       <td>
-                        <i>Task III: Image Registeration</i>
                         <ul class="materials">
-                          <li>[T] Chap. 10.1</li>
+                          <li>[CLRS] Chap. 4</li>
                         </ul>
                       </td>
 
@@ -368,679 +383,571 @@
                       </td>
                     </tr>
                     <tr>
-                      <td>Wed, Feb. 8</td>
+                      <td>Thu, Sep. 21</td>
                       <td class="topic"><a
-                          href="https://www.dropbox.com/s/n8fy5tn9vl5dsp6/lec7-transformation_estimation.pdf?dl=0">Lec.
-                          7: Transformation Estimation</a>
-                        <div class="subtopic">
-                          Feature matching, RANSAC</div>
+                          href="https://www.dropbox.com/s/n8fy5tn9vl5dsp6/lec7-transformation_estimation.pdf?dl=0">
+                          Lec.
+                          7: Divide and Conquer II</a>
+                        <div class="subtopic"></div>
                       </td>
                       <td>
-                        <i>Task III: Image Registeration</i>
                         <ul class="materials">
-                          <li>[T] Chap. 10.2</li>
+                          <li>[CLRS] Chap. 33.4</li>
                         </ul>
                       </td>
 
                       <td>
-                        <strike>
-                          <font color=#800000>lab2 due</font>
-                        </strike>
                       </td>
                     </tr>
                     <tr class="gray">
-                      <td>Fri, Feb. 10</td>
-                      <td class="topic2"><a
-                          href="https://www.dropbox.com/s/er1nfk50emdmd2z/lab3-optimization.pdf?dl=0">Lab 3:
-                          Registration Toolbox</a>
+                      <td>Fri, Sep. 22</td>
+                      <td class="topic2"><a href="https://www.dropbox.com/s/er1nfk50emdmd2z/lab3-optimization.pdf?dl=0">
+                          Reviews: Divide and Conquer</a>
                         <div class="subtopic">
                         </div>
                       </td>
                       <td>
-                        <ul class="materials">
-                          <li>[Z] D2L: <a href="https://d2l.ai/chapter_optimization/index.html">12.1</a></li>
-                        </ul>
                       </td>
                       <td>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td>Mon, Feb. 13</td>
-                      <td class="topic">
-                        <a href="https://www.dropbox.com/s/koakrcqwsjhpic8/lec8-image-seg.pdf?dl=0">Lec. 8: Image
-                          Segmentation</a>
-                        <div class="subtopic">
-                          Semantic: Otsu thresholding
-                          <br> Instance: connected component
-                        </div>
-                      </td>
-                      <td>
-                        <i>Task IV: Object segmentation</i>
-                        <ul class="materials">
-                          <li>[T] Chap. 6.1-6.5</li>
-                        </ul>
-                      </td>
-                      <td>
-                        <strike>
-                          <font color=#800000>ps1 due</font>
-                        </strike>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Wed, Feb. 15</td>
-                      <td class="topic">
-                        <a href="https://www.dropbox.com/s/x61rz71rtocwaaa/lec9-image-seg2.pdf?dl=0">Lec. 9: Image
-                          Segmentation II </a>
-                        <div class="subtopic">
-                          Instance: Watershed, Graph cut
-                        </div>
-                      </td>
-                      <td>
-                        <i>Task IV: Object segmentation</i>
-                        <ul class="materials">
-                          <li>[T] Chap 6.7, 8.1</li>
-                        </ul>
-                      </td>
-
-                      <td>
-                        <strike>
-                          <font color=#800000>lab3 due</font>
-                        </strike>
-                      </td>
-                    </tr>
-                    <tr class="gray">
-                      <td>Fri, Feb. 17</td>
-                      <td class="topic2"><a
-                          href="https://www.dropbox.com/s/d8s6vxvh5ql19jc/lab4-segmentation-toolbox.pdf?dl=0">Lab 4:
-                          Segmentation Toolbox</a>
-                        <div class="subtopic">
-                          Post-processing: Morphological operation
-                          <br />Analysis: Descriptive statistics
-                        </div>
-                      </td>
-                      <td>
-                        <ul class="materials">
-                          <li><a
-                              href="https://medium.com/swlh/image-processing-with-python-morphological-operations-26b7006c0359">morphological
-                              operations</a></li>
-                          <li><a href="https://realpython.com/python-statistics/">descriptive statistics</a></li>
-                        </ul>
-                      </td>
-
-                      <td>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td rowspan=11 style="vertical-align:middle;text-align:center;">DL Basics<br />[Week 6-9]</td>
-                      <td>Mon, Feb. 20</td>
-                      <td class="topic">
-                        <a href="https://www.dropbox.com/s/v7j1qzis3rw74p0/lec10-ml-overview.pdf?dl=0">Lec. 10: Machine
-                          Learning Overview </a>
-                        <div class="subtopic">ML: pipeline, tasks
-                          <br /> Coding: Scikit-learn
-                        </div>
-                      </td>
-                      <td>
-                        <i>Overview</i>
-                        <ul class="materials">
-                          <li>[Z] <a href="https://d2l.ai/chapter_introduction/index.html">Chap. 1</a></li>
-                        </ul>
-                      </td>
-                      <td>
-                        <a
-                          href="https://docs.google.com/spreadsheets/d/1c-18oXsqpeWGUPs-h8H8TnEmVPAC4cR7RurL1TPXXoo/edit#gid=0">fp
-                          team sign-up</a>
-                        <br />ps2 out (dip+image)
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Wed, Feb. 22</td>
-                      <td class="topic">
-                        <a href="https://www.dropbox.com/s/mspybfj1csl84xv/lec11-ml-lr.pdf?dl=0">Lec. 11: Linear
-                          Regression</a>
-                        <div class="subtopic">
-                          Layer: linear, polynomial feature
-                          <br />Optimization: least-square estimation
-                        </div>
-                      </td>
-                      <td>
-                        <i>AlexNet: linear layer</i>
-                        <ul class="materials">
-                          <li>[Z] <a href="https://d2l.ai/chapter_linear-regression/index.html">Chap. 3</a></li>
-                        </ul>
-                      </td>
-
-                      <td>
-                        <strike>
-                          <font color=#800000>lab4 due</font>
-                        </strike>
-                      </td>
-                    </tr>
-                    <tr class="gray">
-                      <td>Fri, Feb. 24</td>
-                      <td class="topic2"><a href="https://www.dropbox.com/s/0wjgiqkmymcyp23/lab5-ml-unsup.pdf?dl=0">Lab.
-                          5: Unsupervised Learning</a>
-                        <div class="subtopic">
-                          Kmeans, PCA
-                        </div>
-                      </td>
-                      <td>
-                        <ul class="materials">
-                          <li>Tutorials: <a href="https://stanford.edu/~cpiech/cs221/handouts/kmeans.html">Kmeans</a>,
-                            <a
-                              href="https://towardsdatascience.com/principal-component-analysis-part-1-the-different-formulations-6508f63a5553">PCA</a>
-                          </li>
-                        </ul>
-                      </td>
-
-                      <td>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td>Mon, Feb. 27</td>
-                      <td class="topic">
-                        <a href="https://www.dropbox.com/s/7ilm7lzucdlxxzd/lec12-ml-lc.pdf?dl=0">Lec. 12: Linear
-                          Classification I</a>
-                        <div class="subtopic">
-                          Layer: transfer function (sign, logistic)
-                        </div>
-                      </td>
-                      <td>
-                        <i>AlexNet: loss layer</i>
-                        <ul class="materials">
-                          <li>[Z] <a href="https://d2l.ai/chapter_linear-classification/index.html">Chap. 4</a></li>
-                        </ul>
-                      </td>
-                      <td>
-                        <a
-                          href="https://docs.google.com/spreadsheets/d/166chRT2QaysaEUtOjSzL4z8yWFWa1nYCyPdoVzrafjM/edit?usp=sharing">
-                          <font color=#800000>fp team info due
+                        hw2 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw3 out
                         </a>
-              </font>
-              </td>
+                      </td>
+                    </tr>
 
-              </tr>
-              <tr>
-                <td>Wed, Mar. 1</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/g78cj3gqv9x0881/lec13-ml-lc2.pdf?dl=0">Lec. 13: Linear
-                    Classification II</a>
-                  <div class="subtopic">
-                    Optimization: stochastic gradient descent
-                    <br />Code: Pytorch
-                  </div>
-                </td>
-                <td>
-                  <i>AlexNet: model</i>
-                  <ul class="materials">
-                    <li>[Z] <a href="https://d2l.ai/chapter_optimization/index.html">Chap. 12</a></li>
-                  </ul>
-                </td>
-                <td>
-                  <strike>
-                    <font color=#800000>lab5 due</font>
-                  </strike>
-                </td>
+                    <tr>
+                      <td>Tue, Sep. 26</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/c6eggsvi7qwft54/lec3-image-operations.pdf?dl=0">
+                          Lec.
+                          8: Dynamic Programming I</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 15</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Thu, Sep. 28</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/x61rz71rtocwaaa/lec9-image-seg2.pdf?dl=0">Lec.
+                          9: Dynamic Programming II </a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                      </td>
 
-              </tr>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr class="gray">
+                      <td>Fri, Sep. 29</td>
+                      <td class="topic2"><a
+                          href="https://www.dropbox.com/s/d8s6vxvh5ql19jc/lab4-segmentation-toolbox.pdf?dl=0">
+                          Reviews: Dynamic Programming</a>
+                      </td>
+                      <td>
+                        <ul class="materials">
 
-              <tr class="gray">
-                <td>Fri, Mar. 3</td>
-                <td class="topic2"><a href="https://www.dropbox.com/s/o2cl0weaxqhilpu/lab6-cifar10.pdf?dl=0">Lab 6: BC
-                    Admission Classification</a>
-                  <div class="subtopic">
-                    Softmax, Multilayer Perceptron
-                    <br />Pytorch: Dataloader
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                  </ul>
-                </td>
-                <td>
-                </td>
-              </tr>
+                        </ul>
+                      </td>
 
-              <tr>
-                <td align=center colspan="4">No Class (Happy Spring Break)</td>
-              </tr>
+                      <td>
+                        hw3 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw4 out
+                        </a>
+                      </td>
+                    </tr>
 
-              <tr>
-                <td>Mon, Mar. 13</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/s47aglwdjtyknkr/lec14-dl-mlp.pdf?dl=0">Lec. 14: Multilayer
-                    Perceptron</a>
-                  <div class="subtopic">
-                    Softmax
-                    <br />Layer: activation linear
-                  </div>
-                </td>
-                <td>
-                  <i>AlexNet: non-linear layer</i>
-                  <ul class="materials">
-                    <li>[Z] <a href="https://d2l.ai/chapter_multilayer-perceptrons/index.html">Chap. 5.1-5.6</a></li>
-                  </ul>
-                </td>
-                <td>
-                  <font color=#800000><a
-                      href="https://docs.google.com/spreadsheets/d/1c-18oXsqpeWGUPs-h8H8TnEmVPAC4cR7RurL1TPXXoo/edit#gid=1631977976">fp
-                      check-in (in-person)</a></font>
-                </td>
-              </tr>
-              <tr>
-                <td>Wed, Mar. 15</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/b5vwynk0kfi38v6/lec15-dl-cnn.pdf?dl=0">Lec. 15: Convolutional
-                    Neural Networks</a>
-                  <div class="subtopic">
-                    Layer: convolution, pooling
-                </td>
-                <td>
-                  <i>AlexNet: remaining layers</i>
-                  <ul class="materials">
-                    <li>[Z] <a href="https://d2l.ai/chapter_convolutional-neural-networks/index.html">Chap. 7</a></li>
-                    <li>Papers: <a
-                        href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">AlexNet</a>
-                    </li>
-                  </ul>
-                </td>
-                <td>
-                  <strike>
-                    <font color=#800000>ps2 due</font>
-                  </strike>
-                </td>
-              </tr>
-              <tr>
-                <td>Fri, Mar. 17</td>
-                <td class="topic"><a href="https://www.dropbox.com/s/qzf5c01wzashewm/lec16-dl-bp.pdf?dl=0">Lec. 16:
-                    Backpropagation</a>
-                  <div class="subtopic">
-                    Backpropagation as dynamic programming
-                  </div>
-                </td>
-                <td></td>
-                <td>
-                </td>
-              </tr>
+                    <tr>
+                      <td>Tue, Oct. 3</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/v7j1qzis3rw74p0/lec10-ml-overview.pdf?dl=0">
+                          Lec.
+                          10: Dynamic Programming III </a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 15, 25.2</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td rowspan=4 style="vertical-align:middle;text-align:center;" bgcolor="#FFBFBF">
+                        Midterm<br />[Week 6-7]</td>
+                      <td>Thu, Oct. 5</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/mspybfj1csl84xv/lec11-ml-lr.pdf?dl=0">
+                          Lec. 11:
+                          Material Review</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 15</li>
+                        </ul>
+                      </td>
 
-              <tr>
-                <td>Mon, Mar. 20</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/5mebcdsnnaoxcmm/lec17-dl-review.pdf?dl=0">Lec. 17: Deep Learning
-                    Review</a>
-                  <div class="subtopic">
-                    MOLD
-                  </div>
-                </td>
-                <td>
-                </td>
-                <td>
-                  <strike>
-                    <font color=#800000>lab6 due</font>
-                  </strike>
-                  <br />ps3 out (dl)
-                </td>
+                      <td>
+                        hw4 due (Fri)<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          practice midterm out
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td align=center colspan="3">No Class (Happy Fall Break)</td>
+                    </tr>
 
-              <tr>
-                <td rowspan=7 style="vertical-align:middle;text-align:center" bgcolor="#EDE0A6">DL+2D Images<br />[Week
-                  10-12]</td>
-                <td>Wed, Mar. 22</td>
-                <td class="topic">
-                  <font style="background-color:#EDE0A6">
-                    <a href="https://www.dropbox.com/s/6t483z1hfk933my/guest_nursing_ultrasound.pdf?dl=0">Case II (MED):
-                      Ultrasound Image Analysis</a>
-                  </font>
-                  <div class="subtopic">
-                    Guest: <a
-                      href="https://www.bc.edu/bc-web/schools/cson/faculty-research/faculty-directory/jinhee-park.html">Prof.
-                      Jinhee Park </a> (@BC)
-                    <br />
-                  </div>
-                </td>
-                <td>
-                  Overview and applications
-                  <ul class="materials">
-                    <li>Papers: <a href="https://www.sciencedirect.com/science/article/pii/S2095809918301887">review</a>
-                    </li>
-                    <li>YouTube: <a href="https://www.youtube.com/watch?v=TK2EhGvXPMY&t=377s">AI for healthcare</a></li>
-                  </ul>
-                </td>
+                    <tr>
+                      <td>Thu, Oct. 12</td>
+                      <td align=center colspan="3" class="topic">
+                        <font style="background-color:#FFBFBF">Midterm Exam (in class)</font>
+                      </td>
+                    </tr>
 
-                <td>
-                  <strike>
-                    <font color=#800000>fp proposal due</font>
-                  </strike>
-                </td>
+                    <tr class="gray">
+                      <td>Fri, Oct. 13</td>
+                      <td class="topic2"><a class="nope"
+                          href="https://www.dropbox.com/s/o2cl0weaxqhilpu/lab6-cifar10.pdf?dl=0">
+                          Exam Walkthrough</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
 
-              </tr>
-              <tr class="gray">
-                <td>Fri, Mar. 24</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/d6kztic35l5a0fy/lec18-image-predict.pdf?dl=0">Lec. 18: Image
-                    Prediction</a>
-                  <div class="subtopic">
-                    3x3 Filter, BatchNorm, ResNet
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                    Three Tricks to Crack ImageNet
-                    <ul class="materials">
-                      <li>[Z] <a href="https://d2l.ai/chapter_convolutional-modern/index.html">Chap. 8</a></li>
-                      <li> Application: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6755949/">Thyroid nodules
-                          classification</a></li>
-                      <li>Papers: <a href="https://arxiv.org/abs/1409.1556">VGG-Net</a>, <a
-                          href="https://arxiv.org/pdf/1502.03167.pdf">BatchNorm</a>, <a
-                          href="http://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf">ResNet</a>
-                      </li>
-                    </ul>
-                </td>
-                <td>
-                  <strike>
-                    <font color=#800000>lab7 due</font>
-                  </strike>
-                </td>
-              </tr>
+                    <tr>
+                      <td align=center colspan="5">
+                        <h3>
+                          <font color=#800000>Module II: Advanced Topics</font>
+                        </h3>
+                      </td>
+                    </tr>
 
-              <tr>
-                <td>Mon, Mar. 27</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/txfe05jyfqgm1gs/lec19-image-trick.pdf?dl=0">Lec. 19: Hacker' s
-                    Guide</a>
-                  <div class="subtopic">
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                    <li>YouTube: <a href="https://www.youtube.com/watch?v=06-AZXmwHjo">Data-centric AI</a></li>
-                  </ul>
-                </td>
+                    <tr>
+                      <td rowspan=3 style="vertical-align:middle;text-align:center;">Randomized Algorithms<br />[Week
+                        8]</td>
+                      <td>Tue, Oct. 17</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/s47aglwdjtyknkr/lec14-dl-mlp.pdf?dl=0">
+                          Lec. 12:
+                          Probability,
+                          Randomness in Computation</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 5, Appendix C</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Thu, Oct. 19</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/b5vwynk0kfi38v6/lec15-dl-cnn.pdf?dl=0">
+                          Lec. 13: Primality Testing, Skip Lists</a>
+                        <div class="subtopic"></div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 31.8</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Fri, Oct. 20</td>
+                      <td class="topic2"><a class="nope"
+                          href="https://www.dropbox.com/s/qzf5c01wzashewm/lec16-dl-bp.pdf?dl=0">
+                          Algorithms: 1-Sided Error Reduction</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td></td>
+                      <td>
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw5 out
+                        </a>
+                      </td>
+                    </tr>
 
-                <td>
-                </td>
-              </tr>
-              <tr>
-                <td>Wed, Mar. 29</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/crqc3mlsgp8h6qc/lec20-image-detect.pdf?dl=0">Lec. 20: Object
-                    Detection</a>
-                  <div class="subtopic">
-                    Problem setup, R-CNN
-                  </div>
-                </td>
-                <td>
-                  Target domain: bounding boxes
-                  <ul class="materials">
-                    <li>[Z] <a href="https://d2l.ai/chapter_computer-vision/index.html">Chap. 14.3-14.8</a></li>
-                  </ul>
-                </td>
+                    <tr>
+                      <td rowspan=6 style="vertical-align:middle;text-align:center">Data structures and
+                        Sorting<br />[Week
+                        9-10]</td>
+                      <td>Tue, Oct. 24</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/5mebcdsnnaoxcmm/lec17-dl-review.pdf?dl=0">
+                          Lec. 14: QuickSort, Verifying Polynomial Identities</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 7, 30.1</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
 
-                <td>
-                  <font color=#800000>fp check-in (data)</font>
-                </td>
+                    <tr>
+                      <td>Thu, Oct. 26</td>
+                      <td class="topic">
+                        <a class="nope"
+                          href="https://www.dropbox.com/s/6t483z1hfk933my/guest_nursing_ultrasound.pdf?dl=0">
+                          Lec. 15: Chernoff Bounds and Applications</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                        </ul>
+                      </td>
 
-                </td>
-              </tr>
+                      <td>
 
+                      </td>
 
-              <tr class="gray">
-                <td>Fri, Mar. 31 </td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/t68zy7r7elo3lso/lec21-image-detect2.pdf?dl=0">Lec. 21: Object
-                    Detection II</a>
-                  <div class="subtopic">
-                    Fast/Faster R-CNN, YOLO
-                  </div>
-                </td>
-                <td></td>
-                <td>
-                  <strike>
-                    <font color=#800000>lab8 due</font>
-                  </strike>
-                </td>
-              </tr>
+                    </tr>
+                    <tr class="gray">
+                      <td>Fri, Oct. 27</td>
+                      <td class="topic">
+                        <a href="https://www.dropbox.com/s/d6kztic35l5a0fy/lec18-image-predict.pdf?dl=0">
+                          Quick Select</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                        hw5 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw6 out
+                        </a>
+                      </td>
+                    </tr>
 
-              <tr>
-                <td>Mon, Apr. 3</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/qvhso4fr8bdj29k/lec22-image-seg.pdf?dl=0">Lec. 22: Image
-                    Segmentation</a>
-                  <div class="subtopic">
-                    FCN, Encoder-Decoder, UNet
-                  </div>
-                </td>
-                <td>
-                  Application: <a href="https://hc18.grand-challenge.org/">Fetal head segmentation</a>
-                  <ul class="materials">
-                    <li>[Z] <a href="https://d2l.ai/chapter_computer-vision/index.html">Chap. 14.9-14.11</a></li>
-                  </ul>
-                </td>
+                    <tr>
+                      <td>Tue, Oct. 30</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/txfe05jyfqgm1gs/lec19-image-trick.pdf?dl=0">
+                          Lec. 16: Hashing</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 11</li>
+                        </ul>
+                      </td>
 
-                <td>
-                  <strike>
-                    <font color=#800000>ps3 due</font>
-                  </strike>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Wed, Apr. 5</td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/e4fsb5bgk06osj2/lec23-image-gen.pdf?dl=0">Lec. 23: Image
-                    Generation</a>
-                  <div class="subtopic">
-                    GAN and conditional GAN
-                  </div>
-                </td>
-                <td>
-                  Target domain: natural images
-                  <ul class="materials">
-                    <li>[Z] <a href="https://d2l.ai/chapter_generative-adversarial-networks/index.html">Chap. 18</a>
-                    </li>
-                  </ul>
-                </td>
-
-                <td>
-                  <font color=#800000>fp check-in (model)</font>
-                  <br />
-                  <font color=#800000>lab9 due</font>
-                  <br />ps4 out (dl+image)
-                </td>
-              </tr>
-              <tr>
-                <td align=center colspan="5">No Class (Good Friday)</td>
-              </tr>
-              <tr>
-                <td align=center colspan="5">No Class (Easter Monday)</td>
-              </tr>
-              <tr>
-                <td rowspan=5 style="vertical-align:middle;text-align:center;" bgcolor="#9de0ad">DL+Videos<br />[Week
-                  13-14]</td>
-                <td>Wed, Apr. 12 </td>
-                <td class="topic">
-                  <font style="background-color:#9de0ad">
-                    <a class="nope"
-                      href="https://www.dropbox.com/s/8yd742wnis17wde/guest-video_perception.pdf?dl=0">Case
-                      III: (PSYC)
-                      Human Video Analysis</a>
-                  </font>
-                  <div class="subtopic">
-                    Guest: Prof. <a href="https://jchristianson4.wixsite.com/jcbc">John Christianson</a> (@BC)
-                    <br /> Deep learning for PSYC
-                  </div>
-                </td>
-                <td>
-                  Overview and applications
-                  <ul class="materials">
-                  </ul>
-                </td>
-
-                <td>
-                </td>
-              </tr>
-
-              <tr class="gray">
-                <td>Fri, Apr. 14 </td>
-                <td class="topic"><a href="https://www.dropbox.com/s/6976prccuw6or2x/lec24-image-gen2.pdf?dl=0">Lec. 24:
-                    Image Generation II</a>
-                  <div class="subtopic">
-                    Style transfer and DALL.E
-                  </div>
-                </td>
-                <td></td>
-                <td> </td>
-              </tr>
-
-              <tr>
-                <td>Tue, Apr. 18 <br />(Mon class) </td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/qowsns8x7owxn0h/lec25-video-motion.pdf?dl=0">Lec. 25: Motion
-                    Estimation</a>
-                  <div class="subtopic">
-                    Motion representation
-                    <br /> Optical flow
-                  </div>
-                </td>
-                <td>
-                </td>
-                <td>
-                  <font color=#800000>lab10 due</font>
-                </td>
-              </tr>
-              <tr class="alternate">
-                <td>Wed, Apr. 19 </td>
-                <td class="topic"><a
-                    href="https://www.dropbox.com/s/rhococqmfoahdlb/lec26-video-prediction.pdf?dl=0">Lec.
-                    26: Video
-                    Classification</a>
-                  <div class="subtopic">
-                    Action recognition
-                    <br /> Recurrent Neural Network
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                    <li>[R] D2L: <a href="https://d2l.ai/chapter_recurrent-neural-networks/index.html">9-10</a></li>
-                  </ul>
-                </td>
-
-                <td>
-                  <strike>
-                    <font color=#800000>lab9 due</font>
-                  </strike>
-                </td>
-              </tr>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Thu, Nov. 1</td>
+                      <td class="topic">
+                        <a href="https://www.dropbox.com/s/crqc3mlsgp8h6qc/lec20-image-detect.pdf?dl=0">
+                          Lec. 17: More on Sorting</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 8</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
 
 
-              <tr>
-                <td>Fri, Apr. 21 </td>
-                <td class="topic">
-                  <a href="https://www.dropbox.com/s/n78x8gily30e7re/lec27-video-tracking.pdf?dl=0">Lec. 27: Object
-                    Tracking</a>
-                  <div class="subtopic">
-                    Research presentation
-                    <br />Direct tracking
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                    <li>SOT: <a href="http://3dvision.princeton.edu/projects/2013/tracking/paper.pdf">Benchmark</a>, <a
-                        href="https://arxiv.org/abs/1604.01802">Held et al.</a>, <a
-                        href="https://arxiv.org/abs/1510.07945">Nam et al.</a></li>
-                    <li>MOT: <a href="https://arxiv.org/pdf/1504.01942.pdf">Benchmark</a>, <a
-                        href="http://vision.cse.psu.edu/courses/Tracking/vlpr12/lzhang_cvpr08global.pdf">Zhang et
-                        al.</a>, <a href="https://arxiv.org/pdf/1912.07515.pdf">Brasó et al.</a></li>
-                  </ul>
-                </td>
+                    <tr class="gray">
+                      <td>Fri, Nov. 3 </td>
+                      <td class="topic2">
+                        <a class="nope" href="https://www.dropbox.com/s/6976prccuw6or2x/lec24-image-gen2.pdf?dl=0">
+                          Applications:
+                          Hashing and Sorting</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td></td>
+                      <td>
+                        hw6 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw7 out
+                        </a>
+                      </td>
+                    </tr>
 
-                <td>
-                  <font color=#800000>ps4 due</font>
-                </td>
-              </tr>
-              <tr>
-                <td rowspan=2 style="vertical-align:middle;text-align:center;" bgcolor="#B5D6F7">DL+3D
-                  Volumes<br />[Week 15]</td>
-                <td>Mon, Apr. 24</td>
-                <td class="topic">
-                  <font style="background-color:#B5D6F7">
-                    <a class="nope" href="https://www.dropbox.com/s/lc8q2wzev4hsjec/guest-connectomics_cs.pdf?dl=0">Case
-                      IV: (NEURO) Connectomics with Expansion Microscopy</a>
-                  </font>
-                  <div class="subtopic">
-                    Guest: <a href="https://sites.google.com/view/ruihanzhang/home?authuser=0/">Ruihan Zhang</a>
-                    (PhD@MIT)
-                    <br />
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                    <li>raw data -> measurement</li>
-                  </ul>
-                </td>
 
-                <td>
-                  <font color=#800000>fp check-in (in-person)</font>
-                </td>
-              </tr>
+                    <tr>
+                      <td rowspan=6 style="vertical-align:middle;text-align:center">Graph Algorithms
+                        <br /> [Week 11-12]
+                      </td>
+                      <td>Tue, Nov. 7</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/qvhso4fr8bdj29k/lec22-image-seg.pdf?dl=0">
+                          Lec. 18: Depth First Search</a>
+                        <div class="subtopic">
 
-              <tr>
-                <td>Wed, Apr. 26</td>
-                <td class="topic"><a href="https://www.dropbox.com/preview/Public/csci3397/s23/lec28-3d-intro.pdf">Lec.
-                    28: Volumetric Processing</a>
-                  <div class="subtopic">
-                    Representation: voxel, point cloud, implicit surface
-                    <br /> pointNet, NERF
-                  </div>
-                </td>
-                <td>
-                  <ul class="materials">
-                  </ul>
-                </td>
-                <td>
-                </td>
-              </tr>
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 22.1, 22.3</li>
+                        </ul>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Thu, Nov. 9</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/qvhso4fr8bdj29k/lec22-image-seg.pdf?dl=0">
+                          Lec. 19: Breadth First Search and Topological Sort</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 22.2, 22.4</li>
+                        </ul>
+                      </td>
+                      <td>
 
-              <tr>
-                <td rowspan=4 style="vertical-align:middle;text-align:center;">Final Projects<br />[Week 15-18]</td>
-                <td>Fri, Apr. 28</td>
-                <td class="topic">Presentation I
-                  <div class="subtopic"></div>
-                </td>
-                <td></td>
-                <td>
-                  <font color=#800000>fp slide due</font>
-                </td>
-              </tr>
-              <tr>
-                <td>Mon, May. 1</td>
-                <td class="topic">Presentation II
-                  <div class="subtopic"></div>
-                </td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Wed, May. 3</td>
-                <td class="topic">Presentation III
-                  <div class="subtopic"></div>
-                </td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr class="gray">
-                <td>Mon, May. 15</td>
-                <td></td>
-                <td></td>
-                <td>
-                  <font color=#800000>fp report/code due</font>
-                </td>
-              </tr>
-              </tbody>
-              </table>
-              <!-- End schedule -->
+                      </td>
+                    </tr>
+
+                    <tr class="gray">
+                      <td>Fri, Nov. 10 </td>
+                      <td class="topic2">
+                        <a class="nope" href="https://www.dropbox.com/s/6976prccuw6or2x/lec24-image-gen2.pdf?dl=0">
+                          Applications:
+                          BFS, DFS, Topological Sorting</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td></td>
+                      <td>
+                        hw7 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw8 out
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Tue, Nov. 14</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/qvhso4fr8bdj29k/lec22-image-seg.pdf?dl=0">
+                          Lec. 20: Connectivity and Shortest Paths</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 24.3</li>
+                        </ul>
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Thu, Nov. 16</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/qvhso4fr8bdj29k/lec22-image-seg.pdf?dl=0">
+                          Lec. 21: Bipartite Graphs and Dijkstra's Algorithm</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 24.3</li>
+                        </ul>
+                      </td>
+                      <td></td>
+                    </tr>
+
+                    <tr class="gray">
+                      <td>Fri, Nov. 17</td>
+                      <td class="topic2">
+                        <a class="nope" href="https://www.dropbox.com/s/6976prccuw6or2x/lec24-image-gen2.pdf?dl=0">
+                          Applications:
+                          Shortest Paths</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td></td>
+                      <td> </td>
+                    </tr>
+
+
+
+
+                    <tr>
+                      <td rowspan=6 style="vertical-align:middle;text-align:center">NP-Completeness
+                        <br /> [Week 13-15]
+                      </td>
+                      <td>Tue, Nov. 21</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/qvhso4fr8bdj29k/lec22-image-seg.pdf?dl=0">
+                          Lec. 22: Efficiently Verifiable Problems</a>
+                        <div class="subtopic">
+
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 34</li>
+                        </ul>
+                      </td>
+                      <td>
+                        hw8 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw9 out
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td align=center colspan="4">No Class (Happy Thanksgiving)</td>
+                    </tr>
+                    <tr>
+                      <td>Tue, Nov. 28 </td>
+                      <td class="topic">
+                        <a class="nope"
+                          href="https://www.dropbox.com/s/8yd742wnis17wde/guest-video_perception.pdf?dl=0">
+                          Lec. 23: Approximation Algorithms</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 35</li>
+                        </ul>
+                      </td>
+
+                      <td>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>Thu, Nov. 30 </td>
+                      <td class="topic">
+                        <a class="nope"
+                          href="https://www.dropbox.com/s/8yd742wnis17wde/guest-video_perception.pdf?dl=0">
+                          Lec. 24: Approximation Algorithms II</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 35</li>
+                        </ul>
+                      </td>
+
+                      <td>
+                      </td>
+                    </tr>
+
+                    <tr class="gray">
+                      <td>Fri, Dec. 1 </td>
+                      <td class="topic2"><a class="nope"
+                          href="https://www.dropbox.com/s/6976prccuw6or2x/lec24-image-gen2.pdf?dl=0">
+                          Algorithms: More on Approximation</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td></td>
+                      <td>
+                        hw9 due<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          hw10 out
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>Tue, Dec. 5</td>
+                      <td class="topic">
+                        <a class="nope" href="https://www.dropbox.com/s/qowsns8x7owxn0h/lec25-video-motion.pdf?dl=0">
+                          Lec. 25: KNAPSACK and DP Review</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                        <ul class="materials">
+                          <li>[CLRS] Chap. 34</li>
+                        </ul>
+                      </td>
+                      <td>
+
+                      </td>
+                    </tr>
+                    <tr class="alternate">
+                      <td rowspan=2 style="vertical-align:middle;text-align:center;" bgcolor="#FFBFBF">Final<br />[Week
+                        15-16]</td>
+                      <td>Thu, Dec. 7 </td>
+                      <td class="topic"><a
+                          href="https://www.dropbox.com/s/rhococqmfoahdlb/lec26-video-prediction.pdf?dl=0">
+                          Lec.
+                          26: Material Review</a>
+                        <div class="subtopic">
+                        </div>
+                      </td>
+                      <td>
+                      </td>
+
+                      <td>
+                        hw10 due (Fri)<br />
+                        <a class="nope"
+                          href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">
+                          practice final out
+                        </a>
+                      </td>
+                    </tr>
+
+
+                    <tr>
+                      <td>TBD </td>
+
+                      <td align=center colspan="3" class="topic">
+                        <font style="background-color:#FFBFBF">Final Exam</font>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- End schedule -->
               </font>
             </div>
           </center>
@@ -1081,15 +988,15 @@
                     </td>
                     <td>
                       <div class="staff">
-                        <div><img src="src/gabe.jpg" class="staff"></div>
-                        <div><b><a href="" class="stafflink">Gabriel Fajardo</a></b></div>
+                        <div><img src="src/shameer.jpeg" class="staff"></div>
+                        <div><b><a href="" class="stafflink">Shameer Ahmad</a></b></div>
                         <div>TA</div>
                       </div>
                     </td>
                     <td>
                       <div class="staff">
-                        <div><img src="src/mike.jpg" class="staff"></div>
-                        <div><b><a href="" class="stafflink">Michael Lin</a></b></div>
+                        <div><img src="src/peiyu.jpeg" class="staff"></div>
+                        <div><b><a href="" class="stafflink">Peiyu Zhong</a></b></div>
                         <div>TA</div>
                       </div>
                     </td>
@@ -1112,22 +1019,22 @@
                 </thead>
                 <tr class="alternate">
                   <td>Donglai </td>
-                  <td>Mon/Tue 3-4pm @ 245 Beacon Rm. 528F</td>
+                  <td>Tue/Thu 4:15-5pm @ 245 Beacon Rm. 528F</td>
                 </tr>
                 <tr class="alternate">
-                  <td>Gabriel </td>
-                  <td>Wed 1-2pm, Thu 1:30-2:30pm @ 245 Beacon Rm. 122</td>
+                  <td>Shameer </td>
+                  <td>TBD @ 245 Beacon Rm. 122</td>
                 </tr>
                 <tr class="alternate">
-                  <td>Michael </td>
-                  <td> Tue 2-3pm, Fri 4-5pm @ 245 Beacon Rm. 122</td>
+                  <td>Peiyu </td>
+                  <td>TBD @ 245 Beacon Rm. 122</td>
                 </tr>
                 </tbody>
               </table>
               <div align="left" style="padding-left: 4%; margin-top: -30px">
                 <ul>
                   <li>Office hours will take place in person (or Zoom if needed).</li>
-                  <li>Donglai will hold additional one-on-one AMA office hours Tue 4-5pm/Wed 3-4pm <a
+                  <li>Donglai will hold additional one-on-one AMA office hours Mon/Wed 4:15-5pm <a
                       href="https://calendly.com/donglai-wei/open-office-hour">(15-min by appointment)</a></li>
                 </ul>
               </div>
@@ -1145,174 +1052,239 @@
 
             <div class="spotlight" style="width: 90%; text-align: left">
               <div class="content">
-
-                This is a challenging course and we are here to help you become a more-AI version of yourself.
                 Please feel free to reach out if you need help in any form.
                 <br />
-                <p><b>1. Get help</b> (besides office hours)</p>
+                <p><b>1. Course Format</b></p>
                 <div style="padding-left: 4%; margin-top: -35px">
                   <ul>
-                    <li><b>Dropbox:</b> The lecture pdfs will be uploaded to Dropbox (follow the link) and you can ask
-                      questions there by making comments on the slides directly.
-                    <li><b>Discord:</b> For labs/psets/final projects, we will create dedicated channels for you to ask
-                      public questions.
-                      If you cannot make your post public (e.g., due to
-                      revealing problem set solutions), please directly DM TAs or the instructor separately,
-                      or come to office
-                      hours. Please note, however, that the course staff
-                      cannot provide help debugging code, and there is
-                      no guarantee that they'll be able to answer
-                      last-minute homework questions before the
-                      deadline. We also appreciate it when you respond
-                      to questions from other students! If you have an
-                      important question that you would prefer to discuss
-                      over email, you may email the course staff,
-                      or you can contact the instructor by email
-                      directly.</li>
-                    <li><b>Support:</b> The <a
-                        href="https://www.bc.edu/bc-web/offices/student-affairs/sites/counseling.html">university
-                        counseling services center</a> provides
-                      a variety of programs and activities.
+                    <li><b>Discussion-based OH:</b>
+                      To better help you crack the code interview, the discussion-based OHs are strongly encouraged!
                     </li>
-                    <li>
-                      <b>Accommodations for students with disabilities:</b>
-                      If you are a student with a documented disability seeking reasonable accommodations in this
-                      course, please contact Kathy Duggan, (617) 552-8093, <a
-                        href="mailto:dugganka@bc.edu">dugganka@bc.edu</a>, at the Connors Family Learning Center
-                      regarding learning disabilities and ADHD, or Rory Stein, (617) 552-3470, <a
-                        href="mailto:steinr@bc.edu">steinr@bc.edu</a>, in the Disability Services Office regarding all
-                      other types of disabilities, including temporary disabilities. Advance notice and appropriate
-                      documentation are required for accommodations.
-                    </li>
+                    <li><b><a href="https://piazza.com/configure-classes/fall2023/csci3833">Piazza:</a></b> A Piazza
+                      page has been established to help with discussion outside of class. Any
+                      question that is not
+                      private and might
+                      be of interest to other students in the class should be posted to Piazza. Please note that the
+                      staff
+                      might ask you to
+                      post your questions on Piazza if we feel it will be beneficial to other students.</li>
+                  </ul>
+                </div>
+                <br />
 
+                <p><b>2. Grading:</b>
+                  <font color=#800000>
+                    10 homework (40%) + 1 midterm (25%) + 1 final exam (35%) + extra credit
+                  </font>
+                </p>
+                <div style="padding-left: 4%; margin-top: -35px">
+                  <ul>
+
+                    <li><b>Homework (40%)</b>
+                      <ul class="padded">
+                        <li>There will be 10 weekly assignments HW1 - HW10, published every Friday and due at 10:00AM
+                          (accepted until 10:59 AM) the
+                          following Friday.</li>
+                        <li>Late assignments will receive no credit. However, the lowest homework score will be dropped.
+                          Therefore, each homework
+                          assignment is worth 4% of your final grade. Unfortunately, exceptions can only be made for
+                          emergency situations (e.g.
+                          family or medical), and should be requested with as much notice as possible and/or be
+                          evidenced by
+                          documentation. Please
+                          plan accordingly and/or be ready to provide documentation of medical appointments, etc.
+                          Each HW assignment will consist of four questions, three of which will be graded. Nonetheless,
+                          there will be a penalty
+                          for submissions that do not contain a reasonable attempt to solve all four questions.
+                          HW0 - is an optional assignment and worth 2%.</li>
+                        <li>We encourage you to type the submitted assignments. In particular in LaTeX (see HW0), but
+                          not
+                          limited to. A typed
+                          assignment will receive 5 extra points (out of 100 for an assignment). Nonetheless, you can
+                          still
+                          get the full score by
+                          submitting a readable (scanned) handwritten solution. Your feedback is encouraged, 2 extra
+                          points
+                          will be awarded for
+                          each typographical error and 10 extra points for each mathematical error you call to
+                          attention.
+                          Only the first person to
+                          spot an error will receive the extra points.</li>
+                      </ul>
+                    <li><b>Midterm (25%) and Final Exam (35%)</b>
+                      One midterm and a cumulative final exam will be given. A large fraction of the questions on these
+                      exams will be similar
+                      to homework and class problems or very slight variations/extensions. Thus a good way to study is
+                      to make sure you know
+                      how to solve these problems.
+                    </li>
+                    <li><b>Optional Extra Credit</b>
+                      <ul class="padded">
+                        <li><b>Course Evaluation (1%)</b>
+                          The course evaluations are important to us and will allow you to earn extra 1% to your final
+                          grade. Students will
+                          receive this point by submitting the final course evaluations and uploading the receipts from
+                          the
+                          course evaluations to
+                          Gradescope as a separate assignment.
+                        </li>
+                        <li>
+                          <b>Bonus Question on Homework Assignments:</b>
+                          some homework assignments will have additional questions,
+                          allowing you to earn
+                          extra credit. This way your homework grade can exceed 100%!
+                        </li>
+                      </ul>
+
+                    <li><b>Philosophy:</b> In any humanities or social science class, you must write clearly and
+                      concisely to get your point across. It is not
+                      sufficient that a correct argument appears somewhere in your answer, if it is also accompanied by
+                      incorrect or faulty
+                      reasoning. The same applies for this course: your responses must be clear, concise, and correct to
+                      receive full credit.</li>
+
+                    <li><b>Re-grading Policy:</b>
+                      <ul class="padded">
+                        <li>
+                          If a student feels that credit has been inappropriately allocated, then they should ask for a
+                          regrade. The student
+                          should submit a request via Gradescope along with an explanation of what was incorrectly
+                          graded and why. Regrade
+                          requests must be made within one week of an assignment being graded.
+                        </li>
+                        <li><b>No oral and/or e-mail regrade requests will be accepted</b></li>
+                        <li>
+                          Students are cautioned that they have the possibility of both gaining and losing points (i.e.,
+                          if the regrade determines
+                          that the answer was more incorrect than marked). Students are reminded that accuracy alone is
+                          not sufficient; the answer
+                          should also be clear and concise.
+                        </li>
+                      </ul>
+                    </li>
+                    <li><b>Chart:</b>
+                      If your final raw score exceeds the threshold for grade
+                      X, your final letter
+                      grade will be X or better. The actual thresholds will be determined after the final exam, but will
+                      be no higher than
+                      what appears below. (E.g., a score of 87% or above is guaranteed to receive a B+ or better.) A
+                      failing grade on the
+                      final exam is grounds for failing the course.
+                      <table class="grade" border="1px solid black;">
+                        <tr>
+                          <td>A</td>
+                          <td>A-</td>
+                          <td>B+</td>
+                          <td>B</td>
+                          <td>B-</td>
+                          <td>C+</td>
+                          <td>C</td>
+                          <td>C-</td>
+                          <td>D+</td>
+                          <td>D</td>
+                          <td>D-</td>
+                        </tr>
+                        <tr>
+                          <td>&ge;96</td>
+                          <td>92</td>
+                          <td>87</td>
+                          <td>83</td>
+                          <td>80</td>
+                          <td>77</td>
+                          <td>73</td>
+                          <td>70</td>
+                          <td>67</td>
+                          <td>63</td>
+                          <td>60</td>
+                        </tr>
+                      </table>
+                    </li>
                   </ul>
                 </div>
                 <br />
 
 
-                <p><b>2. Homework submission</b></p>
-                <div style="padding-left: 4%; margin-top: -35px">
-                  All programming assignments are in Python on Colab, always due at
-                  <b>
-                    <font color=#800000>midnight (11:59 pm) on the due date</font>
-                  </b>.
-                  <ul>
-                    <li><b>Install Colab on the browser:</b>
-                      Sign in to your Google account, follow the <a
-                        href="https://drive.google.com/drive/folders/1iZcw9dK6DSmKxAsErCZW3tSr479yAPFF?usp=share_link">[link]</a>
-                      to the folder of assignments, click on <i>lab0.ipynb</i>, click on "Open with" and "Connect more
-                      apps", install "Colaboratory".
-                    <li><b>Submission:</b>
-                      You need save a copy of the file in your own Google drive, so that you can save your edits.
-                      Afterwards, you can download the ipynb file and submit it to <b>Canvas</b>.</li>
-                    <li><b>Lab (1 per week):</b>
-                      Every lecture has a lab exercise to help you gain the hands-on understanding about the material.
-                      The lab on previous week's lectures is due <i>on Wednesday</i>.
-                      We will go through some code in class and you need to finish up the exercises.
-                    </li>
 
-                    <li><b>Pset (4 in total):</b>
-                      In each pset, we will build a working prototype for a biology lab or a healthcare startup.
-                    </li>
 
-                    <li><b>Final project:</b> <a
-                        href="https://docs.google.com/document/d/1Ii08EZK-BtAc4QvtNgWSHsi8cW1kUDJfmUltuvxVkH8/edit#">(guideline)</a>
-                      In lieu of a final exam,
-                      we'll have a final project. This project will be
-                      completed in small groups during the last weeks of
-                      the class. The direction for this project is
-                      open-ended: you can either choose from a list of
-                      project ideas that we distribute, or you can
-                      propose a topic of your own. A short project
-                      proposal will be due approximately halfway through
-                      the course. During the final exam period, you'll
-                      turn in a final report and give a short
-                      presentation. You may use an ongoing research work
-                      for your final project, as long it meets the
-                      requirements.</li>
-                  </ul>
-                </div>
-                <br />
-
-                <p><b>3. Academic policy</b></p>
+                <p><b>3. Academic Integrity</b></p>
                 <div style="padding-left: 4%; margin-top: -35px">
                   <ul>
-                    <li><b>Late days:</b> You'll have <b> 10 late
-                        days each</b> for labs and psets respectively
-                      over the course of the
-                      semester. Each time you use one, you may
-                      submit a homework assignment one day late
-                      without penalty. You are allowed to use
-                      multiple late days on a single assignment. For
-                      example, you can use all of your days at once
-                      to turn in one assignment a week late. You
-                      do <i>not</i> need to notify us when you use a
-                      late day; we'll deduct it automatically. If
-                      you run out of late days and still submit
-                      late, your assignment will be penalized at a
-                      rate of 10% per day. If you edit your
-                      assignment after the deadline, this will count
-                      as a late submission, and we'll use the
-                      revision time as the date of submission (after
-                      a short grace period of a few minutes). We
-                      will not provide additional late time, except
-                      under exceptional circumstances, and for these
-                      we'll require documentation (e.g., a doctor's
-                      note). Please note that the late days are
-                      provided to help you deal with minor setbacks,
-                      such as routine illness or injury, paper
-                      deadlines, interviews, and computer problems;
-                      these do not generally qualify for an
-                      additional extension.</li>
-                    <li><b>Academic integrity:</b> While you are
-                      encouraged to discuss homework
-                      assignments with other students, <i>your
-                        programming work must be completed
-                        individually</i>. You may not search for
-                      solutions online, or to use existing
-                      implementations of the algorithms in the
-                      assignments. Thus it is acceptable to learn from another student the general idea for writing
-                      program code to perform a particular task, or the technique for solving a mathematical problem,
-                      but unacceptable for two students to prepare their assignments together and submit what are
-                      essentially two copies of identical work. If you have any uncertainty about the application of
-                      this policy, please check with me.
-                      Failure to comply with these guidelines
-                      will be considered a violation of the
-                      <a
+                    <li>Unless otherwise specified in an assignment, all submitted work must be your own, original work.
+                      If you are referencing
+                      others' work, put it in quotes! If you are directly quoting, or building on others' writing,
+                      provide a citation.
+                    </li>
+                    <li>Students are encouraged to collaborate (except when taking exams). Please use Piazza to
+                      this effect and also to find
+                      other students to work with on assignments, i.e., create study/homework groups. However, when
+                      turning in work that
+                      benefited from a collaboration, the student must state that clearly. Students must write their
+                      solutions on their own
+                      and may not look at any other student’s write-up.
+                    </li>
+                    <li>Failure to comply with these guidelines will be considered a violation of the <a
                         href="https://www.bc.edu/bc-web/academics/sites/university-catalog/policies-procedures.html#academic_integrity_policies">University
                         policies on academic integrity</a>.
-                      Please make sure that you are familiar with these policies.
-                      We will use <b><a href="https://moss.pl/">moss.pl</a></b> tool to check each lab and pset for
-                      plagriasm detection.
+                      Please consult these policies.
                     </li>
                   </ul>
                 </div>
                 <br />
 
 
-
-                <b>4. Additional resource</b>
+                <b>4. Exam Conflicts</b>
                 <div style="padding-left: 4%; margin-top: 0px">
-                  <ul style="padding-left: 4%;">
-                    <li>Basics: <a
-                        href="https://www.ibiology.org/online-biology-courses/bioimage-analysis-course/">bioimage
-                        analysis</a>, <a
-                        href="https://www.youtube.com/playlist?list=PLi7vCu7jEp8_nFoyZ-8exq5UYW_CAZ6zM">medical image
-                        analysis</a></li>
-                    <li>Advanced: <a href="https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw">computer
-                        vision</a>, <a
-                        href="https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb">deep
-                        learning</a>, <a
-                        href="https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r">deep learning
-                        for computer vision</a></li>
+                  <ul>
+                    <li>Everyone is expected to take all exams at the scheduled times. The times of the exams can be
+                      found on the course
+                      schedule. Alternate exams will be given only in very exceptional cases such as serious illness or
+                      a similarly serious
+                      family emergency.
+                    </li>
+                    <li>In a case of a conflict due to a college sponsored event (such as participation in a sponsored
+                      sports event or a
+                      competition) a college official in charge of the event should contact the instructor at least
+                      three weeks in advance to
+                      determine how the missing grade will be made up.</li>
+                    <li>We will post a form prior to each exam for notifying us of your conflicts. Make sure to fill out
+                      the form before the
+                      posted deadline.
+                    </li>
+                    <li>
+                      Note that end-of-term transportation matters, such as the availability of inexpensive air tickets
+                      before the end of the
+                      term, are not acceptable reasons for an absence.
+                    </li>
                   </ul>
                 </div>
                 <br />
 
-                <b>Acknowledgements:</b> This course is a biomedical version of
-                <a href="https://bc-cv.github.io/csci3343/f22/"> CSCI 3343: Computer Vision</a> with concrete biomedical
-                image analysis applications.
-                See the "Acknowledge" section in that class.
+                <b>5. Wellness and Accommodations</b>
+                <div style="padding-left: 4%; margin-top: 0px">
+                  <ul>
+                    <li>Your health and well-being are important. Please be aware that the university provides a range
+                      of
+                      <a href="https://www.bc.edu/content/bc-web/offices/student-affairs/sites/counseling.html">counseling
+                        and support
+                        services</a> for students struggling with mental health issues.
+                    </li>
+                    <li>If you have a disability, some aspects of this course, the assignments, the in-class activities,
+                      and the way we teach
+                      may be modified to facilitate your participation and progress.
+                      Please contact the
+                      <a href="https://www.bc.edu/content/bc-web/academics/sites/connors-family-learning-center.html">Connors
+                        Family
+                        Learning Center</a> or the
+                      <a
+                        href="https://www.bc.edu/bc-web/offices/student-affairs/sites/student-outreach-and-support-services/disability-services.html">Disability
+                        Services Office</a> to request an accommodation.
+                    </li>
+
+                  </ul>
+                </div>
+                <br />
+
+
               </div>
             </div>
           </center>
@@ -1340,7 +1312,6 @@
       <script src="../shared/jquery.scrolly.min.js"></script>
       <script src="../shared/skel.min.js"></script>
       <script src="../shared/util.js"></script>
-
     </font>
   </div>
 </body>
